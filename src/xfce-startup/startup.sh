@@ -48,7 +48,7 @@ sudo  vncserver -localhost  -depth 24 -geometry 1360x768 :1
 # python3 -m websockify --web /usr/share/novnc/utils/../ 6080 localhost:5901 &
 #websockify -D --web=/usr/share/novnc/  6901 localhost:5901
 # cp /root/.Xauthority /headless/.Xauthority
-/root/install/tun_setup.sh
+# /root/install/tun_setup.sh
 echo "deaomndd"
 
 systemctl enable vncserver@1.service
