@@ -57,7 +57,7 @@ touch /root/.Xresources
 echo "deaomndd"
 
 systemctl enable vncserver@1.service
-systemctl enable cron
+systemctl enable cron.service
 systemctl daemon-reload
 systemctl start vncserver@1
 # git -C root/moya/ pull
